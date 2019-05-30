@@ -22,6 +22,7 @@ export const UserName = style.a`
     text-decoration: none;
     transition: background-color 1s ease;
     color: black;
+    text-transform: uppercase;
 
     :hover {
         background-color: rgba(0,0,0,0.25);

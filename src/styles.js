@@ -21,6 +21,7 @@ export const Header = styled.div`
     background: white;
     border-radius: 5px;
     padding: 15px;
+    align-items: center;
 `
 
 export const Logo = styled.img`
