@@ -1,6 +1,6 @@
-import style from 'styled-components';
+import styled from 'styled-components';
 
-export const InfosContainer = style.div`
+export const InfosContainer = styled.div`
     padding: 15px;
     background-color: white;
     margin-top: 10px;
@@ -10,12 +10,12 @@ export const InfosContainer = style.div`
     align-items: center;
 `
 
-export const UserInfo = style.div`
+export const UserInfo = styled.div`
     display: flex;
     align-items: center;
 `
 
-export const UserName = style.a`
+export const UserName = styled.a`
     padding: 5px;
     border-radius: 5px;
     font-size: 22px;
@@ -31,15 +31,15 @@ export const UserName = style.a`
 
 `
 
-export const UserAndLocation = style.div`
+export const UserAndLocation = styled.div`
     margin-left: 10px;
 `
 
-export const Location = style.p`
+export const Location = styled.p`
     margin: 0;
     padding-left: 5px;
 `
 
-export const Repositories = style.a`
+export const Repositories = styled.a`
     padding: 15px;
 `
